@@ -241,40 +241,11 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .rounded { border-radius: 50%; }
 body, html { height: 100%; background-color: #000; }
 body, h1, h2, h3, h4, h5, h6 { font-family: "Amatic SC", sans-serif }
-.image_container {
-width: 100%;
-position: relative;
-}
-.dish-price {
-position: absolute;
-z-index: 2;
-bottom: 5px;
-right: 5px;
-}
+.image_container { width: 100%; position: relative; }
+.dish-price { position: absolute; z-index: 2; bottom: 5px; right: 5px; }
 .dish-title {margin-block-end: .1rem}
 .dish-image { max-width: 100%; min-height: 100px; position: relative;}
 .dish-description{margin-block-start: 0px;}
-.bgimg {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("img/Header.jpg");
-    background-position: center;
-    min-height: 80vh;
-    filter: blur(5px) brightness(60%);
-    margin-top: 4rem;
-}
-
-.go-to-top {
-    bottom:3%;
-    right:5%;
-    position:fixed;
-    z-index:3;
-    background-color: #521d20;
-    padding: .5rem;
-}
-
-.go-to-top>img {
-    width: 50px;
-    height: 50px;
-    position: relative;
-}
+.bgimg { background-repeat: no-repeat; background-size: cover; background-image: url("img/Header.jpg"); background-position: center; min-height: 90vh; filter: blur(5px) brightness(60%); margin-top: 10vh; }
+.go-to-top { bottom:3%; right:5%; position:fixed; z-index:3; background-color: #521d20; padding: .5rem; }
+.go-to-top>img { width: 50px; height: 50px; position: relative; }
