@@ -1,0 +1,384 @@
+{
+    "Antipasti": [{
+            "id": 1,
+            "name": "POH PIA KUNG TOOD",
+            "description": "Involtini thai fritti ripieni di verdure e spaghetti di soia",
+            "price": 9
+        },
+        {
+            "id": 2,
+            "name": "POH PIA TOOD",
+            "description": "Involtini thai fritti ripieni di verdure, spaghetti di soia e macinato di maiale.",
+            "price": 10
+        },
+        {
+            "id": 3,
+            "name": "POH PIA MUU TOOD",
+            "description": "Involtini thai fritti ripieni di verdure e gamberi*",
+            "price": 10
+        },
+        {
+            "id": 4,
+            "name": "KUNG CHUP PANG TOD",
+            "description": "Gamberoni fritti in tempura",
+            "price": 11
+        },
+        {
+            "id": 5,
+            "name": "PIK GAI TOD",
+            "description": "Alette di pollo fritto marinate con sale e pepe",
+            "price": 10
+        },
+        {
+            "id": 6,
+            "name": "GAI SATEK",
+            "description": "Spiedini di pollo alla griglia marinati con salsa di soia, salsa di ostriche, curry giallo e latte (accompagnati con salsa di arachidi)",
+            "price": 10
+        },
+        {
+            "id": 7,
+            "name": "MUU SATEK",
+            "description": "Spiedini di maiale alla griglia marinati con curry giallo latte di cocco salsa di ostriche salsa di soia (accompagnati con salsa di arachidi)",
+            "price": 11
+        },
+        {
+            "id": 8,
+            "name": "YAM RUOM MID",
+            "description": "Insalata thai con spaghetti di soia, gamberi, calamari , macinato di maiale, verdure, cipolla, scalogno, sedano, salsa di soia e salsa piccante, arachidi",
+            "price": 12
+        },
+        {
+            "id": 9,
+            "name": "TOOD MAN MUU",
+            "description": "Frittelle con macinato di maiale, uovo, cocco grattugiato, curry rosso, fagiolini, foglie di lime, salsa di soia",
+            "price": 11
+        }
+    ],
+    "Primi": [{
+            "id": 10,
+            "name": "PAD THAI PAK",
+            "description": "Noodles di riso con uovo, salsa di tamarindo, salsa di ostriche, salsa di soia e verdure servita con germogli di soia, arachidi e lime",
+            "price": 11
+        },
+        {
+            "id": 11,
+            "name": "PAD THAI KUNG MUU GAI",
+            "description": "Noodles di riso saltato con uovo, gamberi/maiale/pollo, salsa di tamarindo, salsa di ostriche, salsa di soia e verdure, servita con germogli di soia arachidi e lime",
+            "price": 12
+        },
+        {
+            "id": 12,
+            "name": "KHAO PAD PAK",
+            "description": "Riso saltato con uovo, salsa di soia e verdure",
+            "price": 11
+        },
+        {
+            "id": 13,
+            "name": "KHAO PAD TUNA",
+            "description": "Riso saltato con salsa di soia, uovo, tonno, scalogno, erba cipollina e peperoncino",
+            "price": 13
+        },
+        {
+            "id": 14,
+            "name": "KHAO PAD TALEY",
+            "description": "Riso saltato con uovo, gamberi, calamari, salsa di soia, erba cipollina e pomodorini",
+            "price": 13
+        },
+        {
+            "id": 15,
+            "name": "KHAO PAD GAI / MUU",
+            "description": "Riso saltato con uovo, pollo/maiale marinato con salsa di soia e salsa di ostriche, erba cipollina e pomodorini",
+            "price": 12
+        },
+        {
+            "id": 16,
+            "name": "KHAO KAI JEAW",
+            "description": "Omelette con macinato di maiale / gamberi, accompagnata con riso in bianco e salsa Sriracha",
+            "price": 13
+        },
+        {
+            "id": 17,
+            "name": "PAD MEE PAK",
+            "description": "Spaghetti di riso saltati con uovo, salsa di ostriche, salsa di soia e verdure",
+            "price": 11
+        },
+        {
+            "id": 18,
+            "name": "PAD MEE KUNG / MUU / GAI",
+            "description": "Spaghetti di riso saltati con uovo, gamberi/maiale/pollo, salsa di ostriche, salsa di soia e verdure",
+            "price": 12
+        },
+        {
+            "id": 19,
+            "name": "PAD MEE PAK",
+            "description": "Spaghetti di riso rosso saltato con uovo, salsa di ostriche, salsa di soia, tofu e verdure",
+            "price": 11
+        },
+        {
+            "id": 20,
+            "name": "PAD MEE PAK KUNG / MUU / GAI",
+            "description": "Spaghetti di riso rosso saltati con uovo, gamberi/maiale/pollo, salsa di ostriche, salsa di soia, tofu e verdure",
+            "price": 12
+        },
+        {
+            "id": 21,
+            "name": "PAD SEE EW PAK",
+            "description": "Tagliatelle di riso saltate con uovo, salsa di soia, salsa di ostriche e verdure",
+            "price": 11
+        },
+        {
+            "id": 22,
+            "name": "PAD SEE EW KUNG / MUU / GAI",
+            "description": "Tagliatelle di riso saltate con uovo, gamberi/maiale/pollo, salsa di soia, salsa di ostriche e verdure",
+            "price": 12
+        },
+        {
+            "id": 23,
+            "name": "PAD WOONSEN PAK",
+            "description": "Spaghetti di soia saltati con uovo, salsa di ostriche, salsa di soia e verdure",
+            "price": 11
+        },
+        {
+            "id": 24,
+            "name": "PAD WOONSEN KUNG / MUU / GAI",
+            "description": "Spaghetti di soia saltati con uovo, gamberi/maiale/pollo, salsa di ostriche, salsa di soia e verdure",
+            "price": 12
+        },
+        {
+            "id": 25,
+            "name": "PAD Mll ZUA PAK",
+            "description": "Tagliolini all'uovo saltati con uovo, salsa di soia, salsi di ostriche e verdure",
+            "price": 11
+        },
+        {
+            "id": 26,
+            "name": "PAD Mll ZUA KUNG / MUU / GAI",
+            "description": "Tagliolini all'uovo saltati con uovo, gamberi/maiale/pollo, salsa di soia, salsa di ostriche e verdure",
+            "price": 12
+        },
+        {
+            "id": 27,
+            "name": "KUAI TIEW MOO SAP",
+            "description": "Zuppa con noodles, macinato di maiale, salsa di soia, verdure",
+            "price": 12
+        },
+        {
+            "id": 28,
+            "name": "KUAI TIEW TOMYAM TALEY",
+            "description": "Zuppa con noodles, peperoncino, aglio, Galanga, funghi, foglie di lime, latte, salsa di pesce, citronella, cipolla, succo di limone, pasta chili, gamberi e calamari",
+            "price": 15
+        },
+        {
+            "id": 29,
+            "name": "KHAO PLAO",
+            "description": "Riso bianco al vapore",
+            "price": 3
+        },
+        {
+            "id": 30,
+            "name": "KHAO NEAW",
+            "description": "Riso glutinoso al vapore",
+            "price": 3
+        }
+    ],
+    "Secondi": [{
+            "id": 31,
+            "name": "GAI / MUU TOD KRATIEM PRIK THAI",
+            "description": "Pollo/maiale marinato con salsa di soia e salsa di ostriche, saltato con aglio e pepe",
+            "price": 12
+        },
+        {
+            "id": 32,
+            "name": "CIUCI GAI",
+            "description": "Pollo marinato con salsa di soia e salsa di ostriche, saltato con curry rosso, salsa di pesce latte cocco, latte, foglie di lime, peperoni e basilico",
+            "price": 12
+        },
+        {
+            "id": 33,
+            "name": "CIUCI KUNG",
+            "description": "Gamberi saltatl con curry rosso, salsa di pesce, latte di cocco, latte, foglie di lime, peperoni e basilico",
+            "price": 13
+        },
+        {
+            "id": 34,
+            "name": "GAI PAD MED MA MUANG",
+            "description": "Pollo marinato con salsa di soia e salsa di ostriche saltato con anacardi, cipolla, salsa di soia, salsa di ostriche, chili e verdure miste",
+            "price": 12
+        },
+        {
+            "id": 35,
+            "name": "KUNG PAD MED MA MUANG",
+            "description": "Gamberi saltati con anacardi, cipolla, salsa di soia, salsa di ostriche, chili e verdure",
+            "price": 10
+        },
+        {
+            "id": 36,
+            "name": "GAI / MUU PAD KING",
+            "description": "Pollo/maiale marinato con salsa di soia e salsa di ostriche saltato con zenzero, cipolla, salsa di soia, salsa di ostriche, funghi e verdure miste",
+            "price": 12
+        },
+        {
+            "id": 37,
+            "name": "TALEY PAD KING",
+            "description": "Gamberi saltati con zenzero, cipolla, salsa di soia, salsa di ostriche, funghi e verdure miste",
+            "price": 13
+        },
+        {
+            "id": 38,
+            "name": "MASAMANN GAI",
+            "description": "Pollo al curry di Masamann, salsa di pesce, salsa di tamarindo, latte di cocco, foglie di alloro, patate, cipolla, pomodorini, arachidi",
+            "price": 12
+        },
+        {
+            "id": 39,
+            "name": "LAB GAI / MUU",
+            "description": "Macinato di pollo/maiale con scalogno, foglie di lime, salsa di soia, aglio, menta, polvere di riso, succo di limone e peperoncino",
+            "price": 12
+        },
+        {
+            "id": 40,
+            "name": "LAB KUNG",
+            "description": "Gamberi scottati con aglio, scalogno, salsa di soia, foglie di lime, menta, polvere di riso, succo di lime, peperoncino",
+            "price": 13
+        },
+        {
+            "id": 41,
+            "name": "NAM TOK MUU YANG",
+            "description": "Coppa di maiale marinata con salsa di soia e salsa di ostrica alla griglia, condita con scalogno, foglie di lime, salsa soia, aglio, menta, polvere di riso, succo di limone e peperoncino",
+            "price": 12
+        },
+        {
+            "id": 42,
+            "name": "PAD NAM MAN HOY TATEY",
+            "description": "Gamberi e calamari saltati con salsa di ostriche, aglio, salsa di soia, cipolla e verdure miste",
+            "price": 13
+        },
+        {
+            "id": 43,
+            "name": "PAD KRA PAO TALEY",
+            "description": "Gamberi e calamari saltati con verdure, aglio, salsa di soia, salsa di ostriche e peperoncino",
+            "price": 13
+        },
+        {
+            "id": 44,
+            "name": "PAD KRA PAO GAI / MUU SAB",
+            "description": "Macinato di pollo/maiale saltato con verdure, aglio, salsa di soia, salsa di ostriche e peperoncino",
+            "price": 12
+        },
+        {
+            "id": 45,
+            "name": "PAD PONG KAREE TALEY",
+            "description": "Gamberi e calamari al curry giallo, chili, latte, salsa di soia, salsa di ostriche, uovo e verdure miste",
+            "price": 13
+        },
+        {
+            "id": 46,
+            "name": "PAD PONG KAREE GAI",
+            "description": "Pollo al curry giallo, latte, salsa di soia, salsa di ostriche, uovo, chili e verdure",
+            "price": 12
+        },
+        {
+            "id": 47,
+            "name": "CIUCI PLA TOD",
+            "description": "Pesce intero fritto con salsa al curry rosso, salsa di pesce, latte di cocco, foglie di lime, peperoni, basilico",
+            "price": 16
+        },
+        {
+            "id": 48,
+            "name": "PLA NEAUNG MANAO",
+            "description": "Branzino al vapore con salsa al peperoncino, salsa di soia, succo di lime",
+            "price": 16
+        },
+        {
+            "id": 49,
+            "name": "PLA TOD KRATIEM PRIK TAI",
+            "description": "Orata/Branzino fritti con aglio e pepe",
+            "price": 16
+        },
+        {
+            "id": 50,
+            "name": "PLA RAD PRIK",
+            "description": "Orata/Branzino fritti con salsa agrodolce",
+            "price": 16
+        },
+        {
+            "id": 51,
+            "name": "SOM TAM",
+            "description": "Insalata di cetrioli, carote, salsa di pesce, peperoncino, aglio, pendolini, salsa di tamarindo, succo di limone e arachidi",
+            "price": 9
+        },
+        {
+            "id": 52,
+            "name": "TOM YUM TALEY",
+            "description": "Zuppa di gamberi* e calamari* con peperoncino, chilli, aglio, galanga, citronella, funghi, foglie di lime, latte, salsa di pesce, cipolla, succo di lime",
+            "price": 15
+        },
+        {
+            "id": 53,
+            "name": "KAENG KHIAO WAN PAK",
+            "description": "Zuppa di verdure con latte di cocco, curry verde e basilico",
+            "price": 11
+        },
+        {
+            "id": 54,
+            "name": "KAENG KHIAO WAN GAI / MUU / TALEY",
+            "description": "Zuppa con pollo/maiale/gamberi e calamari, latte di cocco, verdure, curry verde e basilico",
+            "price": 12
+        },
+        {
+            "id": 55,
+            "name": "TOM KHA GAI",
+            "description": "Zuppa con pollo, latte di cocco, funghi, citronella, galanga, succo di limone, foglie di lime, cipolla, erba cipollina",
+            "price": 12
+        },
+        {
+            "id": 56,
+            "name": "TOM KHA KUNG",
+            "description": "Zuppa con gamberi*, latte di cocco, funghi, citronella, galanga, succo di limone, foglie di lime, cipolla, erba cipollina",
+            "price": 13
+        },
+        {
+            "id": 57,
+            "name": "PAD PAK RUOM",
+            "description": "Verdure miste saltate con aglio, salsa di ostriche, salsa di soia e pomodorini",
+            "price": 10
+        }
+    ],
+    "Dolci": [{
+            "id": 58,
+            "name": "TACO SAKUU",
+            "description": "Sago, latte di cocco, farina di riso",
+            "price": 5
+        },
+        {
+            "id": 59,
+            "name": "PANNA COTTA",
+            "description": "Panna cotta al latte di cocco",
+            "price": 5
+        },
+        {
+            "id": 60,
+            "name": "KHAO NEAW MAMUANG",
+            "description": "Riso glutinoso con latte di cocco e mango",
+            "price": 7
+        },
+        {
+            "id": 61,
+            "name": "CHEESECAKE AL MANGO",
+            "description": "Cheesecake al mango",
+            "price": 5
+        },
+        {
+            "id": 62,
+            "name": "CHEESCAKE AL PISTACCHIO",
+            "description": "Cheesecake al pistacchio",
+            "price": 5
+        },
+        {
+            "id": 63,
+            "name": "TIRAMISÙ",
+            "description": "Tiramisù",
+            "price": 5
+        }
+    ]
+}

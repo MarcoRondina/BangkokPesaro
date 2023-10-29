@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bangkok - Ristorante Tailandese</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <style>
+
+    </style>
+</head>
+
+<body>
+	<!-- Navbar (sit on top) -->
+	<div class="ares-top ">
+		<div class="ares-bar ares-xlarge ares-black ares-opacity ares-hover-opacity-off" id="myNavbar">
+			<a href="/index.html" class="ares-bar-item ares-button">Home</a>
+			<!--<a href="#about" class="ares-bar-item ares-button">Bangkok</a>-->
+			<a href="/index.html#myMap" class="ares-bar-item ares-button">Contatti</a>
+			<a href="#menu" class="ares-bar-item ares-button">Menu</a>
+			<a href="https://myselforder.lasersoft.it/Public/Home?Id=73715" class="ares-bar-item ares-button">Asporto</a>
+		</div>
+	</div>
+
+    <!-- Add a button on the bottom right corner to go to the top of the page, at the id "menu" -->
+    <a class="ares-circle ares-right go-to-top" href="#menu" id="myBtn" title="Go to top">
+        <img src="img/Arrow.svg" alt="Go To Top">
+    </a>
+
+    <!-- Menu Container -->
+    <div class="ares-container ares-black ares-padding-64 ares-xxlarge" id="menu">
+        <div class="ares-content">
+
+            <h1 class="ares-center ares-xxxlarge" style="margin-bottom:64px">Il Nostro Menu</h1>
+            <div class="ares-row ares-center ares-border ares-border-dark-grey">
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Antipasti');" id="myLink">
+                    <div class="ares-col s6 tablink ares-padding-large ares-hover-red">Antipasti</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Primi');">
+                    <div class="ares-col s6 tablink ares-padding-large ares-hover-red">Primi</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Secondi');">
+                    <div class="ares-col s6 tablink ares-padding-large ares-hover-red">Secondi</div>
+                </a>
+                <a href="javascript:void(0)" onclick="openMenu(event, 'Dolci');">
+                    <div class="ares-col s6 tablink ares-padding-large ares-hover-red">Dolci</div>
+                </a>
+            </div>
+
+            <div id="Antipasti" class="ares-container menu ares-padding-32 ares-white">
+                <h1 class="dish-title"><b>1 - POH PIA KUNG TOOD</b></h1>
+                <p class="ares-text-grey dish-description">Involtini thai fritti ripieni di verdure e spaghetti di soia</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">9,00 €</span>
+                    <img src="img/piatti/1.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>2 - POH PIA TOOD</b></h1>
+                <p class="ares-text-grey dish-description">Involtini thai fritti ripieni di verdure, spaghetti di soia e macinato di maiale.</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">10,00 €</span>
+                    <img src="img/piatti/2.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>3 - POH PIA MUU TOOD</b></h1>
+                <p class="ares-text-grey dish-description">Involtini thai fritti ripieni di verdure e gamberi*</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">10,00 €</span>
+                    <img src="img/piatti/3.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>4 - KUNG CHUP PANG TOD</b></h1>
+                <p class="ares-text-grey dish-description">Gamberoni fritti in tempura</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">11,00 €</span>
+                    <img src="img/piatti/4.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>5 - PIK GAI TOD</b></h1>
+                <p class="ares-text-grey dish-description">Alette di pollo fritto marinate con sale e pepe</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">10,00 €</span>
+                    <img src="img/piatti/5.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>6 - GAI SATEK</b></h1>
+                <p class="ares-text-grey dish-description">Spiedini di pollo alla griglia marinati con salsa di soia, salsa di ostriche, curry giallo e latte (accompagnati con salsa di arachidi)</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">10,00 €</span>
+                    <img src="img/piatti/6.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>7 - MUU SATEK</b></h1>
+                <p class="ares-text-grey dish-description">Spiedini di maiale alla griglia marinati con curry giallo latte di cocco salsa di ostriche salsa di soia (accompagnati con salsa di arachidi)</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">11,00 €</span>
+                    <img src="img/piatti/7.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>8 - YAM RUOM MID</b></h1>
+                <p class="ares-text-grey dish-description">Insalata thai con spaghetti di soia, gamberi, calamari , macinato di maiale, verdure, cipolla, scalogno, sedano, salsa di soia e salsa piccante, arachidi</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/8.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>9 - TOOD MAN MUU</b></h1>
+                <p class="ares-text-grey dish-description">Frittelle con macinato di maiale, uovo, cocco grattugiato, curry rosso, fagiolini, foglie di lime, salsa di soia</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">11,00 €</span>
+                    <img src="img/piatti/9.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+            </div>
+
+            <div id="Primi" class="ares-container menu ares-padding-32 ares-white">
+
+                <h1 class="dish-title"><b>10 - PAD THAI PAK</b></h1>
+                <p class="ares-text-grey dish-description">Noodles di riso con uovo, salsa di tamarindo, salsa di ostriche, salsa di soia e verdure servita con germogli di soia, arachidi e lime</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">11,00 €</span>
+                    <img src="img/piatti/10.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>11 - PAD THAI KUNG MUU GAI</b></h1>
+                <p class="ares-text-grey dish-description">Noodles di riso saltato con uovo, gamberi/maiale/pollo, salsa di tamarindo, salsa di ostriche, salsa di soia e verdure, servita con germogli di soia arachidi e lime</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/11.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>12 - KHAO PAD PAK</b></h1>
+                <p class="ares-text-grey dish-description">Riso saltato con uovo, salsa di soia e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">11,00 €</span>
+                    <img src="img/piatti/12.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>13 - KHAO PAD TUNA</b></h1>
+                <p class="ares-text-grey dish-description">Riso saltato con salsa di soia, uovo, tonno, scalogno, erba cipollina e peperoncino</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">13,00 €</span>
+                    <img src="img/piatti/13.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>14 - KHAO PAD TALEY</b></h1>
+                <p class="ares-text-grey dish-description">Riso saltato con uovo, gamberi, calamari, salsa di soia, erba cipollina e pomodorini</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">13,00 €</span>
+                    <img src="img/piatti/14.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>15 - KHAO PAD GAI / MUU</b></h1>
+                <p class="ares-text-grey dish-description">Riso saltato con uovo, pollo/maiale marinato con salsa di soia e salsa di ostriche, erba cipollina e pomodorini</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/15.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>16 - KHAO KAI JEAW</b></h1>
+                <p class="ares-text-grey dish-description">Omelette con macinato di maiale / gamberi, accompagnata con riso in bianco e salsa Sriracha</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">13,00 €</span>
+                    <img src="img/piatti/16.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>17 - PAD MEE PAK</b></h1>
+                <p class="ares-text-grey dish-description">Spaghetti di riso saltati con uovo, salsa di ostriche, salsa di soia e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">11,00 €</span>
+                    <img src="img/piatti/17.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>18 - PAD MEE KUNG / MUU / GAI</b></h1>
+                <p class="ares-text-grey dish-description">Spaghetti di riso saltati con uovo, gamberi/maiale/pollo, salsa di ostriche, salsa di soia e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/18.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>19 - PAD MEE PAK</b></h1>
+                <p class="ares-text-grey dish-description">Spaghetti di riso rosso saltato con uovo, salsa di ostriche, salsa di soia, tofu e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">11,00 €</span>
+                    <img src="img/piatti/19.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>20 - PAD MEE PAK KUNG / MUU / GAI</b></h1>
+                <p class="ares-text-grey dish-description">Spaghetti di riso rosso saltati con uovo, gamberi/maiale/pollo, salsa di ostriche, salsa di soia, tofu e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/20.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>21 - PAD SEE EW PAK</b></h1>
+                <p class="ares-text-grey dish-description">Tagliatelle di riso saltate con uovo, salsa di soia, salsa di ostriche e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">11,00 €</span>
+                    <img src="img/piatti/21.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>22 - PAD SEE EW KUNG / MUU / GAI</b></h1>
+                <p class="ares-text-grey dish-description">Tagliatelle di riso saltate con uovo, gamberi/maiale/pollo, salsa di soia, salsa di ostriche e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/22.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>23 - PAD WOONSEN PAK</b></h1>
+                <p class="ares-text-grey dish-description">Spaghetti di soia saltati con uovo, salsa di ostriche, salsa di soia e</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">11,00 €</span>
+                    <img src="img/piatti/23.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>24 - PAD WOONSEN KUNG / MUU / GAI</b></h1>
+                <p class="ares-text-grey dish-description">Spaghetti di soia saltati con uovo, gamberi/maiale/pollo, salsa di ostriche, salsa di soia e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/24.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>25 - PAD Mll ZUA PAK</b></h1>
+                <p class="ares-text-grey dish-description">Tagliolini all'uovo saltati con uovo, salsa di soia, salsi di ostriche e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">11,00 €</span>
+                    <img src="img/piatti/25.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>26 - PAD Mll ZUA KUNG / MUU / GAI</b></h1>
+                <p class="ares-text-grey dish-description">Tagliolini all'uovo saltati con uovo, gamberi/maiale/pollo, salsa di soia, salsa di ostriche e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/26.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>27 - KUAI TIEW MOO SAP</b></h1>
+                <p class="ares-text-grey dish-description">Zuppa con noodles, macinato di maiale, salsa di soia, verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/27.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>28 - KUAI TIEW TOMYAM TALEY</b></h1>
+                <p class="ares-text-grey dish-description">Zuppa con noodles, peperoncino, aglio, Galanga, funghi, foglie di lime, latte, salsa di pesce, citronella, cipolla, succo di limone, pasta chili, gamberi e calamari</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">15,00 €</span>
+                    <img src="img/piatti/28.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>29 - KHAO PLAO</b></h1>
+                <p class="ares-text-grey dish-description">Riso bianco al vapore</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">3,00 €</span>
+                    <img src="img/piatti/29.jpg" class="dish-image">
+                </div>
+
+                <hr>
+                <h1 class="dish-title"><b>30 - KHAO NEAW</b></h1>
+                <p class="ares-text-grey dish-description">Riso glutinoso al vapore</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">3,00 €</span>
+                    <img src="img/piatti/30.jpg" class="dish-image">
+                </div>
+
+                <hr>
+            </div>
+
+            <div id="Secondi" class="ares-container menu ares-padding-32 ares-white">
+                <h1 class="dish-title"><b>31 - GAI / MUU TOD KRATIEM PRIK THAI</b></h1>
+                <p class="ares-text-grey dish-description">Pollo/maiale marinato con salsa di soia e salsa di ostriche, saltato con aglio e pepe</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/31.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>32 - CIUCI GAI</b></h1>
+                <p class="ares-text-grey dish-description">Pollo marinato con salsa di soia e salsa di ostriche, saltato con curry rosso, salsa di pesce latte cocco, latte, foglie di lime, peperoni e basilico</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/32.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>33 - CIUCI KUNG</b></h1>
+                <p class="ares-text-grey dish-description">Gamberi saltatl con curry rosso, salsa di pesce, latte di cocco, latte, foglie di lime, peperoni e basilico</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">13,00 €</span>
+                    <img src="img/piatti/33.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>34 - GAI PAD MED MA MUANG</b></h1>
+                <p class="ares-text-grey dish-description">Pollo marinato con salsa di soia e salsa di ostriche saltato con anacardi, cipolla, salsa di soia, salsa di ostriche, chili e verdure miste</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/34.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>35 - KUNG PAD MED MA MUANG</b></h1>
+                <p class="ares-text-grey dish-description">Gamberi saltati con anacardi, cipolla, salsa di soia, salsa di ostriche, chili e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">10,00 €</span>
+                    <img src="img/piatti/35.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>36 - GAI / MUU PAD KING</b></h1>
+                <p class="ares-text-grey dish-description">Pollo/maiale marinato con salsa di soia e salsa di ostriche saltato con zenzero, cipolla, salsa di soia, salsa di ostriche, funghi e verdure miste</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/36.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>37 - TALEY PAD KING</b></h1>
+                <p class="ares-text-grey dish-description">Gamberi saltati con zenzero, cipolla, salsa di soia, salsa di ostriche, funghi e verdure miste</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">13,00 €</span>
+                    <img src="img/piatti/37.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>38 - MASSAMAN GAI</b></h1>
+                <p class="ares-text-grey dish-description">Pollo al curry di Massaman, salsa di pesce, salsa di tamarindo, latte di cocco, foglie di alloro, patate, cipolla, pomodorini, arachidi</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/38.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>39 - LAB GAI / MUU</b></h1>
+                <p class="ares-text-grey dish-description">Macinato di pollo/maiale con scalogno, foglie di lime, salsa di soia, aglio, menta, polvere di riso, succo di limone e peperoncino</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/39.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>40 - LAB KUNG</b></h1>
+                <p class="ares-text-grey dish-description">Gamberi scottati con aglio, scalogno, salsa di soia, foglie di lime, menta, polvere di riso, succo di lime, peperoncino</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">13,00 €</span>
+                    <img src="img/piatti/40.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>41 - NAM TOK MUU YANG</b></h1>
+                <p class="ares-text-grey dish-description">Coppa di maiale marinata con salsa di soia e salsa di ostrica alla griglia, condita con scalogno, foglie di lime, salsa soia, aglio, menta, polvere di riso, succo di limone e peperoncino</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/41.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>42 - PAD NAM MAN HOY TATEY</b></h1>
+                <p class="ares-text-grey dish-description">Gamberi e calamari saltati con salsa di ostriche, aglio, salsa di soia, cipolla e verdure miste</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">13,00 €</span>
+                    <img src="img/piatti/42.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>43 - PAD KRA PAO TALEY</b></h1>
+                <p class="ares-text-grey dish-description">Gamberi e calamari saltati con verdure, aglio, salsa di soia, salsa di ostriche e peperoncino</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">13,00 €</span>
+                    <img src="img/piatti/43.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>44 - PAD KRA PAO GAI / MUU SAB</b></h1>
+                <p class="ares-text-grey dish-description">Macinato di pollo/maiale saltato con verdure, aglio, salsa di soia, salsa di ostriche e peperoncino</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/44.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>45 - PAD PONG KAREE TALEY</b></h1>
+                <p class="ares-text-grey dish-description">Gamberi e calamari al curry giallo, chili, latte, salsa di soia, salsa di ostriche, uovo e verdure miste</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">13,00 €</span>
+                    <img src="img/piatti/45.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>46 - PAD PONG KAREE GAI</b></h1>
+                <p class="ares-text-grey dish-description">Pollo al curry giallo, latte, salsa di soia, salsa di ostriche, uovo, chili e verdure</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/46.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>47 - CIUCI PLA TOD</b></h1>
+                <p class="ares-text-grey dish-description">Pesce intero fritto con salsa al curry rosso, salsa di pesce, latte di cocco, foglie di lime, peperoni, basilico</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">16,00 €</span>
+                    <img src="img/piatti/47.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>48 - PLA NEAUNG MANAO</b></h1>
+                <p class="ares-text-grey dish-description">Branzino al vapore con salsa al peperoncino, salsa di soia, succo di lime</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">16,00 €</span>
+                    <img src="img/piatti/48.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>49 - PLA TOD KRATIEM PRIK TAI</b></h1>
+                <p class="ares-text-grey dish-description">Orata/Branzino fritti con aglio e pepe</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">16,00 €</span>
+                    <img src="img/piatti/49.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>50 - PLA RAD PRIK</b></h1>
+                <p class="ares-text-grey dish-description">Orata/Branzino fritti con salsa agrodolce</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">16,00 €</span>
+                    <img src="img/piatti/50.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>51 - SOM TAM</b></h1>
+                <p class="ares-text-grey dish-description">Insalata di cetrioli, carote, salsa di pesce, peperoncino, aglio, pendolini, salsa di tamarindo, succo di limone e arachidi</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">9,00 €</span>
+                    <img src="img/piatti/51.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>52 - TOM YUM TALEY</b></h1>
+                <p class="ares-text-grey dish-description">Zuppa di gamberi* e calamari* con peperoncino, chilli, aglio, galanga, citronella, funghi, foglie di lime, latte, salsa di pesce, cipolla, succo di lime</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">15,00 €</span>
+                    <img src="img/piatti/52.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>53 - KAENG KHIAO WAN PAK</b></h1>
+                <p class="ares-text-grey dish-description">Zuppa di verdure con latte di cocco, curry verde e basilico</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">11,00 €</span>
+                    <img src="img/piatti/53.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>54 - KAENG KHIAO WAN GAI / MUU / TALEY</b></h1>
+                <p class="ares-text-grey dish-description">Zuppa con pollo/maiale/gamberi e calamari, latte di cocco, verdure, curry verde e basilico</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/54.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>55 - TOM KHA GAI</b></h1>
+                <p class="ares-text-grey dish-description">Zuppa con pollo, latte di cocco, funghi, citronella, galanga, succo di limone, foglie di lime, cipolla, erba cipollina</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">12,00 €</span>
+                    <img src="img/piatti/55.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>56 - TOM KHA KUNG</b></h1>
+                <p class="ares-text-grey dish-description">Zuppa con gamberi*, latte di cocco, funghi, citronella, galanga, succo di limone, foglie di lime, cipolla, erba cipollina</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">13,00 €</span>
+                    <img src="img/piatti/56.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>57 - PAD PAK RUOM</b></h1>
+                <p class="ares-text-grey dish-description">Verdure miste saltate con aglio, salsa di ostriche, salsa di soia e pomodorini</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">10,00 €</span>
+                    <img src="img/piatti/57.jpg" class="dish-image">
+                </div>
+
+                <hr>
+            </div>
+
+            <div id="Dolci" class="ares-container menu ares-padding-32 ares-white">
+                <h1 class="dish-title"><b>58 - TACO SAKUU</b></h1>
+                <p class="ares-text-grey dish-description">Sago II latte di cocco, farina di riso</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">5,00 €</span>
+                    <img src="img/piatti/58.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>59 - PANNA COTTA</b></h1>
+                <p class="ares-text-grey dish-description">Panna cotta al latte di cocco</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">5,00 €</span>
+                    <img src="img/piatti/59.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>60 - KHAO NEAW MAMUANG</b></h1>
+                <p class="ares-text-grey dish-description">Riso glutinoso con latte di cocco e mango</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">7,00 €</span>
+                    <img src="img/piatti/60.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>61 - CHEESECAKE AL MANGO</b></h1>
+                <p class="ares-text-grey dish-description">Cheesecake al mango</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">5,00 €</span>
+                    <img src="img/piatti/61.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>62 - CHEESCAKE AL PISTACCHIO</b></h1>
+                <p class="ares-text-grey dish-description">Cheesecake al pistacchio</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">5,00 €</span>
+                    <img src="img/piatti/62.jpg" class="dish-image">
+                </div>
+
+                <hr>
+
+                <h1 class="dish-title"><b>63 - TIRAMISÙ</b></h1>
+                <p class="ares-text-grey dish-description">Tiramisù</p>
+                <div class="image_container">
+                    <span class="ares-right ares-tag ares-dark-grey ares-round dish-price">5,00 €</span>
+                    <img src="img/piatti/63.jpg" class="dish-image">
+                </div>
+
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Tabbed Menu
+        function openMenu(evt, menuName) {
+            var i, x, tablinks;
+            x = document.getElementsByClassName("menu");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < x.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" ares-red", "");
+            }
+            document.getElementById(menuName).style.display = "block";
+            evt.currentTarget.firstElementChild.className += " ares-red";
+        }
+        document.getElementById("myLink").click();
+    </script>
+</body>
+
+</html>
